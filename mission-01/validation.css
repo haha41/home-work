@@ -1,0 +1,21 @@
+li {
+  background-color: #ccc;
+  cursor: pointer;
+  width: 250px;
+  height: 37px;
+  border-radius: 34px;
+  margin-bottom: 12px;
+  line-height: 37px;
+  list-style: none;
+}
+
+li::before {
+  content: url("./validation_icon 2.png");
+  margin-left: 16px;
+}
+
+a {
+  list-style-type: style type;
+  text-decoration: none;
+  color: #000;
+}
