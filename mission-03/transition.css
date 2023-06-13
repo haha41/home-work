@@ -17,12 +17,13 @@ li {
   background: #e4e1e1;
   /* 높이 변경 */
   /* height: 176px; */
-  height: 75px;
+  height: 75px; /* 높이 주지 말기 */
   overflow: hidden;
   transition-property: height;
   transition-duration: 1s;
 }
 
+/* 없애면 됨 */
 .related:hover {
   height: 176px;
 }
